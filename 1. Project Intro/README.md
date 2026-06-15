@@ -53,7 +53,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 To focus my analysis on the Belgian job market, I apply filters to the dataset, narrowing down to roles based in Belgium.
 
 ```python
-df_US = df[df['job_country'] == 'Belgium']
+df_Belgium = df[df['job_country'] == 'Belgium']
 ```
 
 # The Analysis
